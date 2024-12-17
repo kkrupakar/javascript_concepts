@@ -11,5 +11,8 @@ const updateClicks = (function(){
     }
 })();
 
-updateClicks.addChoice('burger','pizza','coke');
+updateClicks.addChoice('burger');
+updateClicks.addChoice('pizza');
+updateClicks.addChoice('coke');
+
 console.log(updateClicks.getChoices());
